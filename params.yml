@@ -1,0 +1,16 @@
+
+batch_size: 8
+learning_rate: 0.001
+max_epoch: 1000
+interval: 5
+image_shape: [128, 128, 3]
+data_dir: ./dataset
+dataset_name: celebA
+max_grad_clip: 5
+max_grad_norm: 100
+on_memory: False
+
+hidden_features: 512
+K: 32
+L: 3
+actnorm_scale: 1.0
